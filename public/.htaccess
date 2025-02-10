@@ -1,0 +1,6 @@
+RewriteEngine On
+
+# إعادة توجيه كل الطلبات إلى index.php باستثناء الملفات والمجلدات الفعلية
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?$1 [QSA,L]

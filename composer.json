@@ -1,0 +1,16 @@
+{
+    "name": "devmo/mvc",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Devmo\\Mvc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "saadany",
+            "email": "saadany165@gmail.com"
+        }
+    ],
+    "require": {}
+}
